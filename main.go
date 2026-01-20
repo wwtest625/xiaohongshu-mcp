@@ -8,6 +8,7 @@ import (
 	"github.com/xpzouying/xiaohongshu-mcp/configs"
 )
 
+
 func main() {
 	var (
 		headless bool

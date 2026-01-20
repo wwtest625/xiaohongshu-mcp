@@ -12,6 +12,7 @@ import (
 	"github.com/xpzouying/xiaohongshu-mcp/xiaohongshu"
 )
 
+
 func main() {
 	var (
 		binPath string // 浏览器二进制文件路径

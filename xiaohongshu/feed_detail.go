@@ -55,10 +55,10 @@ type CommentLoadConfig struct {
 
 func DefaultCommentLoadConfig() CommentLoadConfig {
 	return CommentLoadConfig{
-		ClickMoreReplies:    false,
-		MaxRepliesThreshold: 10,
-		MaxCommentItems:     0,
-		ScrollSpeed:         "normal",
+		ClickMoreReplies:    true,      // 默认开启点击回复
+		MaxRepliesThreshold: 0,         // 默认不跳过，展开所有回复
+		MaxCommentItems:     0,         // 默认不限制评论数
+		ScrollSpeed:         "fast",    // 默认使用快速滚动
 	}
 }
 
